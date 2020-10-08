@@ -1,5 +1,7 @@
-const people = require('./states')
+//Require people
+const people = require('./people')
 
+//Cria constante xande
 const xande = new people()
                 .setNome('Alexandre')
                 .setIdade(21)
